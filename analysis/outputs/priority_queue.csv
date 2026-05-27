@@ -1,0 +1,26 @@
+entity_id,entity_name,segment,priority_score,avg_risk_score,avg_quality_score,estimated_impact
+ACC030,Access workflow 30,Strategic,106.11,47.3,82.2,995473
+ACC019,Access workflow 19,Growth,90.13,46.6,80.4,769518
+ACC022,Access workflow 22,Strategic,89.08,48.3,79.0,733443
+ACC036,Access workflow 36,Core,88.75,52.8,81.7,701899
+ACC028,Access workflow 28,Growth,88.46,49.1,81.0,727370
+ACC021,Access workflow 21,Watch,88.13,55.5,81.8,670208
+ACC007,Access workflow 7,Growth,87.87,53.0,80.4,682492
+ACC001,Access workflow 1,Watch,83.77,52.4,80.6,631303
+ACC020,Access workflow 20,Strategic,82.83,52.8,80.4,613648
+ACC023,Access workflow 23,Growth,82.11,50.7,79.2,616660
+ACC034,Access workflow 34,Strategic,81.96,50.3,79.6,619757
+ACC012,Access workflow 12,Strategic,81.67,53.7,80.9,591341
+ACC008,Access workflow 8,Watch,81.08,51.5,79.7,597377
+ACC013,Access workflow 13,Core,80.74,49.6,78.9,605569
+ACC002,Access workflow 2,Growth,78.68,50.5,81.0,577595
+ACC005,Access workflow 5,Strategic,78.38,53.3,81.1,550258
+ACC018,Access workflow 18,Watch,78.29,49.9,79.4,570916
+ACC024,Access workflow 24,Core,77.57,48.0,79.5,577697
+ACC032,Access workflow 32,Strategic,76.81,53.5,81.3,527572
+ACC006,Access workflow 6,Strategic,76.66,54.8,79.5,505791
+ACC026,Access workflow 26,Watch,76.42,52.5,80.2,525629
+ACC033,Access workflow 33,Core,76.05,49.0,79.9,549689
+ACC027,Access workflow 27,Watch,74.82,54.5,78.9,479903
+ACC010,Access workflow 10,Growth,74.77,53.1,79.1,492501
+ACC017,Access workflow 17,Strategic,72.31,52.9,79.7,462222
