@@ -1,0 +1,29 @@
+incident_id,detected_week,workflow_id,incident_type,summary,severity,detection_source,patients_impacted,minutes_to_ack,hours_to_restore,root_cause,recurrence_risk,followup_score,status,followup_owner
+INC-001,2026-W16,MHA002,Safety review backlog,High-risk phrase rule increased reviewer queue volume.,SEV2,Partner report,728,38,27.9,EHR mapping mismatch,66,89.0,Needs owner,Marketplace Product
+INC-002,2026-W13,MHA001,Clinic capacity stale,Provider capacity was older than routing SLA.,SEV3,CS escalation,476,69,17.6,unclear acceptance criteria,70,65.4,Needs owner,Access PM + Intake Engineering
+INC-003,2026-W07,MHA007,Delayed referral status update,Partner status webhook lagged behind product state.,SEV2,Clinical reviewer,765,89,8.9,partner configuration drift,86,86.0,RCA drafted,Growth Product
+INC-004,2026-W16,MHA009,Assessment completion drop,A mobile validation bug blocked assessment completion.,SEV2,Clinical reviewer,920,48,29.7,partner configuration drift,75,99.0,RCA drafted,Product Ops
+INC-005,2026-W16,MHA006,Assessment completion drop,A mobile validation bug blocked assessment completion.,SEV2,Clinical reviewer,898,12,6.4,EHR mapping mismatch,60,77.0,RCA drafted,Portal Engineering
+INC-006,2026-W10,MHA004,Delayed referral status update,Partner status webhook lagged behind product state.,SEV3,CS escalation,680,36,1.6,EHR mapping mismatch,41,48.2,RCA drafted,Integrations Engineering
+INC-007,2026-W16,MHA008,Assessment completion drop,A mobile validation bug blocked assessment completion.,SEV2,Sentry alert,631,65,29.7,instrumentation gap,29,72.1,Monitoring,Analytics Engineering
+INC-008,2026-W09,MHA008,Clinic capacity stale,Provider capacity was older than routing SLA.,SEV2,Mixpanel anomaly,933,34,28.7,instrumentation gap,32,80.6,Fix shipped,Analytics Engineering
+INC-009,2026-W14,MHA005,Event ingestion delay,Mixpanel event stream missed one partner cohort.,SEV3,Clinical reviewer,493,65,11.4,edge-case prompt behavior,34,46.7,Monitoring,Clinical Product + ML
+INC-010,2026-W16,MHA007,Event ingestion delay,Mixpanel event stream missed one partner cohort.,SEV3,Sentry alert,380,43,27.2,instrumentation gap,91,77.9,Needs owner,Growth Product
+INC-011,2026-W11,MHA003,Assessment completion drop,A mobile validation bug blocked assessment completion.,SEV2,CS escalation,451,33,9.7,edge-case prompt behavior,72,72.4,Follow-up scheduled,Product Ops
+INC-012,2026-W13,MHA001,Event ingestion delay,Mixpanel event stream missed one partner cohort.,SEV2,Sentry alert,270,68,9.0,unclear acceptance criteria,42,54.6,Follow-up scheduled,Access PM + Intake Engineering
+INC-013,2026-W07,MHA005,Delayed referral status update,Partner status webhook lagged behind product state.,SEV1,Clinical reviewer,609,11,12.5,partner configuration drift,71,90.0,Needs owner,Clinical Product + ML
+INC-014,2026-W16,MHA006,Assessment completion drop,A mobile validation bug blocked assessment completion.,SEV2,Partner report,884,47,10.8,unclear acceptance criteria,26,65.2,RCA drafted,Portal Engineering
+INC-015,2026-W08,MHA008,Safety review backlog,High-risk phrase rule increased reviewer queue volume.,SEV3,Mixpanel anomaly,415,90,8.6,partner configuration drift,35,43.2,Follow-up scheduled,Analytics Engineering
+INC-016,2026-W12,MHA003,Assessment completion drop,A mobile validation bug blocked assessment completion.,SEV3,Mixpanel anomaly,433,48,11.3,EHR mapping mismatch,24,40.8,Needs owner,Product Ops
+INC-017,2026-W18,MHA007,Event ingestion delay,Mixpanel event stream missed one partner cohort.,SEV3,Mixpanel anomaly,710,46,8.6,stale capacity signal,41,53.5,Monitoring,Growth Product
+INC-018,2026-W09,MHA003,Assessment completion drop,A mobile validation bug blocked assessment completion.,SEV3,Partner report,846,63,3.0,manual handoff break,72,66.5,RCA drafted,Product Ops
+INC-019,2026-W08,MHA008,Delayed referral status update,Partner status webhook lagged behind product state.,SEV1,Clinical reviewer,198,43,5.7,EHR mapping mismatch,41,62.1,RCA drafted,Analytics Engineering
+INC-020,2026-W11,MHA005,Clinic capacity stale,Provider capacity was older than routing SLA.,SEV3,Clinical reviewer,912,65,6.3,stale capacity signal,74,71.2,Monitoring,Clinical Product + ML
+INC-021,2026-W07,MHA007,Safety review backlog,High-risk phrase rule increased reviewer queue volume.,SEV3,Partner report,85,41,23.1,EHR mapping mismatch,28,41.0,Fix shipped,Growth Product
+INC-022,2026-W14,MHA006,Event ingestion delay,Mixpanel event stream missed one partner cohort.,SEV3,Sentry alert,829,13,11.5,EHR mapping mismatch,51,62.7,Follow-up scheduled,Portal Engineering
+INC-023,2026-W10,MHA007,Event ingestion delay,Mixpanel event stream missed one partner cohort.,SEV2,CS escalation,300,25,29.3,instrumentation gap,51,72.4,RCA drafted,Growth Product
+INC-024,2026-W10,MHA003,Clinic capacity stale,Provider capacity was older than routing SLA.,SEV3,CS escalation,219,21,28.4,manual handoff break,68,64.8,Needs owner,Product Ops
+INC-025,2026-W17,MHA004,Clinic capacity stale,Provider capacity was older than routing SLA.,SEV2,Partner report,252,23,9.7,instrumentation gap,52,58.8,Monitoring,Integrations Engineering
+INC-026,2026-W18,MHA006,Clinic capacity stale,Provider capacity was older than routing SLA.,SEV2,Mixpanel anomaly,129,62,21.5,partner configuration drift,36,56.5,Follow-up scheduled,Portal Engineering
+INC-027,2026-W15,MHA009,Event ingestion delay,Mixpanel event stream missed one partner cohort.,SEV3,Mixpanel anomaly,787,62,23.8,unclear acceptance criteria,81,82.2,Monitoring,Product Ops
+INC-028,2026-W15,MHA005,Delayed referral status update,Partner status webhook lagged behind product state.,SEV3,Mixpanel anomaly,492,36,13.1,unclear acceptance criteria,42,51.1,Needs owner,Clinical Product + ML

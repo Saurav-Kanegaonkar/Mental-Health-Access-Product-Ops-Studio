@@ -1,0 +1,10 @@
+contract_id,workflow_id,workflow,endpoint,required_fields,ehr_dependency,mapping_completeness,failure_rate,sandbox_status,top_failure_mode,readiness_score,next_step
+EHR-MHA001,MHA001,Digital self-referral intake routing,HL7 ADT,"MSH, EVN, PID, PV1 segments",72,54,0.15,Not started,unsupported appointment reason,66.9,Add validation event to Mixpanel
+EHR-MHA002,MHA002,Therapy referral capacity matching,FHIR Appointment,"Appointment.status, Appointment.participant, Schedule.actor",66,52,0.268,Not started,status code mismatch,62.0,Lock data contract before sprint planning
+EHR-MHA003,MHA003,US clinic launch readiness checklist,FHIR ServiceRequest,"ServiceRequest.status, category, authoredOn, requester",50,84,0.184,Pilot ready,status code mismatch,80.4,Run partner sandbox replay
+EHR-MHA004,MHA004,Referral status sync into partner EHR,FHIR Patient,"Patient.identifier, telecom, address, communication",95,58,0.154,Pilot ready,duplicate referral id,66.2,Add validation event to Mixpanel
+EHR-MHA005,MHA005,Crisis keyword escalation loop,FHIR Appointment,"Appointment.status, Appointment.participant, Schedule.actor",38,54,0.211,Pilot ready,missing partner identifier,64.7,Run partner sandbox replay
+EHR-MHA006,MHA006,Clinic admin referral queue,FHIR ServiceRequest,"ServiceRequest.status, category, authoredOn, requester",64,48,0.256,Pilot ready,duplicate referral id,60.2,Run partner sandbox replay
+EHR-MHA007,MHA007,Assessment completion recovery,HL7 SIU,"SCH, PID, PV1, AIP segments",24,54,0.107,Live,missing partner identifier,67.8,Confirm owner for error queue
+EHR-MHA008,MHA008,Mixpanel event taxonomy repair,FHIR Patient,"Patient.identifier, telecom, address, communication",28,88,0.156,Pilot ready,missing partner identifier,84.6,Run partner sandbox replay
+EHR-MHA009,MHA009,CS bug and scope intake triage,HL7 SIU,"SCH, PID, PV1, AIP segments",42,85,0.25,Not started,timezone normalization,81.1,Run partner sandbox replay

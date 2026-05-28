@@ -1,0 +1,41 @@
+item_id,created_week,workflow_id,item_type,severity,customer_account,users_impacted,root_cause,engineering_focus_cost,noise_risk,triage_score,decision,owner,follow_up
+IN-033,2026-W09,MHA005,CS ask,Critical,Evergreen Community Care,847,manual handoff break,8,9,91.8,Ship next,Clinical Product + ML,Send CS-facing rationale and workaround
+IN-066,2026-W09,MHA004,Partner request,Critical,Heartland Therapy Network,557,edge-case prompt behavior,17,14,86.8,Ship next,Integrations Engineering,Pair PM and engineer for 30-minute scope review
+IN-089,2026-W13,MHA007,Bug,Critical,Northeast Behavioral Health,574,instrumentation gap,15,13,86.1,Ship next,Growth Product,Pair PM and engineer for 30-minute scope review
+IN-003,2026-W11,MHA003,Data debt,Critical,Evergreen Community Care,539,instrumentation gap,21,7,84.6,Ship next,Product Ops,Wait for second customer signal
+IN-019,2026-W11,MHA007,CS ask,Critical,Northeast Behavioral Health,692,instrumentation gap,23,7,84.6,Ship next,Growth Product,Wait for second customer signal
+IN-063,2026-W11,MHA005,Scope addition,Critical,Metro Access Clinic,682,partner configuration drift,13,37,83.9,Ship next,Clinical Product + ML,Add to sprint review decision log
+IN-026,2026-W17,MHA002,CS ask,Critical,Heartland Therapy Network,609,partner configuration drift,25,19,83.5,Ship next,Marketplace Product,Add to sprint review decision log
+IN-042,2026-W09,MHA002,Data debt,Critical,Heartland Therapy Network,750,instrumentation gap,24,22,83.2,Ship next,Marketplace Product,Convert into acceptance criteria
+IN-044,2026-W12,MHA008,Bug,High,Pacific Youth Counseling,705,manual handoff break,10,3,82.3,Merge into epic,Analytics Engineering,Add to sprint review decision log
+IN-024,2026-W15,MHA007,CS ask,High,Northeast Behavioral Health,697,EHR mapping mismatch,6,3,82.2,Merge into epic,Growth Product,Pair PM and engineer for 30-minute scope review
+IN-085,2026-W18,MHA007,Partner request,Critical,Canyon County Mental Health,799,stale capacity signal,23,19,82.0,Ship next,Growth Product,Pair PM and engineer for 30-minute scope review
+IN-084,2026-W13,MHA004,Bug,High,Canyon County Mental Health,928,EHR mapping mismatch,8,10,81.8,Merge into epic,Integrations Engineering,Add to sprint review decision log
+IN-082,2026-W15,MHA008,CS ask,High,Metro Access Clinic,722,stale capacity signal,11,6,81.3,Merge into epic,Analytics Engineering,Send CS-facing rationale and workaround
+IN-083,2026-W12,MHA005,Bug,High,Metro Access Clinic,517,instrumentation gap,6,5,81.1,Merge into epic,Clinical Product + ML,Add to sprint review decision log
+IN-051,2026-W08,MHA004,CS ask,High,Canyon County Mental Health,1081,stale capacity signal,9,13,80.8,Merge into epic,Integrations Engineering,Pair PM and engineer for 30-minute scope review
+IN-012,2026-W17,MHA001,Bug,High,Canyon County Mental Health,1030,manual handoff break,17,5,80.6,Merge into epic,Access PM + Intake Engineering,Wait for second customer signal
+IN-094,2026-W07,MHA002,CS ask,Critical,Northeast Behavioral Health,344,instrumentation gap,4,2,79.1,Ship next,Marketplace Product,Send CS-facing rationale and workaround
+IN-091,2026-W18,MHA001,Partner request,Critical,Pacific Youth Counseling,404,edge-case prompt behavior,13,11,78.8,Ship next,Access PM + Intake Engineering,Convert into acceptance criteria
+IN-027,2026-W08,MHA002,Bug,High,Canyon County Mental Health,837,EHR mapping mismatch,27,5,76.6,Merge into epic,Marketplace Product,Add to sprint review decision log
+IN-074,2026-W13,MHA005,Scope addition,High,Northeast Behavioral Health,751,partner configuration drift,24,19,74.8,Merge into epic,Clinical Product + ML,Pair PM and engineer for 30-minute scope review
+IN-013,2026-W13,MHA001,Partner request,High,Evergreen Community Care,756,EHR mapping mismatch,19,29,74.7,Merge into epic,Access PM + Intake Engineering,Add to sprint review decision log
+IN-004,2026-W09,MHA006,Partner request,High,Heartland Therapy Network,978,partner configuration drift,16,26,74.6,Merge into epic,Portal Engineering,Send CS-facing rationale and workaround
+IN-009,2026-W15,MHA004,Partner request,High,Evergreen Community Care,576,manual handoff break,21,23,74.4,Merge into epic,Integrations Engineering,Convert into acceptance criteria
+IN-035,2026-W08,MHA004,Bug,High,Heartland Therapy Network,921,EHR mapping mismatch,22,23,74.0,Merge into epic,Integrations Engineering,Pair PM and engineer for 30-minute scope review
+IN-054,2026-W12,MHA003,Bug,High,Canyon County Mental Health,534,instrumentation gap,15,22,73.8,Merge into epic,Product Ops,Add to sprint review decision log
+IN-050,2026-W07,MHA008,Partner request,High,Metro Access Clinic,660,partner configuration drift,28,16,73.1,Merge into epic,Analytics Engineering,Convert into acceptance criteria
+IN-077,2026-W18,MHA009,Scope addition,High,Metro Access Clinic,851,stale capacity signal,14,38,73.0,Merge into epic,Product Ops,Add to sprint review decision log
+IN-036,2026-W15,MHA005,Scope addition,High,Evergreen Community Care,630,EHR mapping mismatch,25,26,72.9,Merge into epic,Clinical Product + ML,Convert into acceptance criteria
+IN-079,2026-W11,MHA008,Scope addition,High,Canyon County Mental Health,605,manual handoff break,20,31,72.6,Merge into epic,Analytics Engineering,Wait for second customer signal
+IN-071,2026-W07,MHA009,Scope addition,High,Evergreen Community Care,643,unclear acceptance criteria,26,28,71.0,Merge into epic,Product Ops,Wait for second customer signal
+IN-031,2026-W14,MHA007,Partner request,High,Canyon County Mental Health,521,EHR mapping mismatch,23,16,70.6,Merge into epic,Growth Product,Pair PM and engineer for 30-minute scope review
+IN-068,2026-W09,MHA005,Bug,Medium,Pacific Youth Counseling,922,manual handoff break,10,3,70.6,Merge into epic,Clinical Product + ML,Add to sprint review decision log
+IN-037,2026-W18,MHA009,CS ask,Medium,Pacific Youth Counseling,544,stale capacity signal,3,8,69.7,Merge into epic,Product Ops,Add to sprint review decision log
+IN-010,2026-W09,MHA001,Bug,High,Northeast Behavioral Health,389,instrumentation gap,4,24,68.8,Merge into epic,Access PM + Intake Engineering,Convert into acceptance criteria
+IN-028,2026-W10,MHA005,Data debt,Medium,Canyon County Mental Health,687,stale capacity signal,5,20,68.6,Merge into epic,Clinical Product + ML,Convert into acceptance criteria
+IN-075,2026-W11,MHA002,Data debt,Medium,Northeast Behavioral Health,882,instrumentation gap,10,12,68.4,Merge into epic,Marketplace Product,Add to sprint review decision log
+IN-087,2026-W11,MHA004,Bug,Medium,Pacific Youth Counseling,626,unclear acceptance criteria,15,4,68.1,Merge into epic,Integrations Engineering,Convert into acceptance criteria
+IN-046,2026-W15,MHA002,Bug,Medium,Metro Access Clinic,684,edge-case prompt behavior,10,19,66.9,Merge into epic,Marketplace Product,Add to sprint review decision log
+IN-095,2026-W11,MHA003,Scope addition,Medium,Canyon County Mental Health,1006,manual handoff break,9,16,66.5,Merge into epic,Product Ops,Wait for second customer signal
+IN-069,2026-W09,MHA003,Scope addition,Medium,Metro Access Clinic,983,EHR mapping mismatch,8,18,66.4,Merge into epic,Product Ops,Wait for second customer signal

@@ -1,0 +1,21 @@
+week,ceremony,purpose,attendees,open_actions,overdue_actions,alignment_score,follow_up_owner,next_artifact
+2026-W15,Monday roadmap sequencing,Align next-highest-value project and capacity tradeoffs,"PM, EM, Design, CS",7,2,73,Product Manager,Decision log
+2026-W15,Tuesday inbound triage,Separate real issues from noise and assign a clear answer,"PM, EM, Clinical, CS",2,2,81,Product Manager,Decision log
+2026-W15,Wednesday incident loop,"Review open incidents, RCAs, and follow-up owners","PM, Product Ops, CS",4,3,81,Engineering Manager,CS response template
+2026-W15,Thursday instrumentation review,Make sure product questions can be answered from data,"PM, EM, Design, CS",9,3,84,Analytics Lead,Metric contract
+2026-W15,Friday scope guardrail,Close decisions and protect engineering focus before weekend drift,"PM, Analytics, Engineering",8,0,85,CS Lead,Metric contract
+2026-W16,Monday roadmap sequencing,Align next-highest-value project and capacity tradeoffs,"PM, EM, Design, CS",4,2,86,Analytics Lead,CS response template
+2026-W16,Tuesday inbound triage,Separate real issues from noise and assign a clear answer,"PM, EM, Clinical, CS",2,2,95,Product Manager,Sprint brief
+2026-W16,Wednesday incident loop,"Review open incidents, RCAs, and follow-up owners","PM, Product Ops, CS",6,3,85,CS Lead,RCA note
+2026-W16,Thursday instrumentation review,Make sure product questions can be answered from data,"PM, Analytics, Engineering",2,0,94,Engineering Manager,Sprint brief
+2026-W16,Friday scope guardrail,Close decisions and protect engineering focus before weekend drift,"PM, Analytics, Engineering",8,3,76,Product Manager,Decision log
+2026-W17,Monday roadmap sequencing,Align next-highest-value project and capacity tradeoffs,"PM, Analytics, Engineering",5,3,71,Analytics Lead,Sprint brief
+2026-W17,Tuesday inbound triage,Separate real issues from noise and assign a clear answer,"PM, Analytics, Engineering",3,0,71,CS Lead,Decision log
+2026-W17,Wednesday incident loop,"Review open incidents, RCAs, and follow-up owners","PM, EM, Clinical, CS",3,1,89,Product Manager,Sprint brief
+2026-W17,Thursday instrumentation review,Make sure product questions can be answered from data,"PM, EM, Design, CS",7,1,81,Engineering Manager,RCA note
+2026-W17,Friday scope guardrail,Close decisions and protect engineering focus before weekend drift,"PM, Analytics, Engineering",3,2,83,Product Manager,Decision log
+2026-W18,Monday roadmap sequencing,Align next-highest-value project and capacity tradeoffs,"PM, EM, Clinical, CS",5,3,94,Product Manager,RCA note
+2026-W18,Tuesday inbound triage,Separate real issues from noise and assign a clear answer,"PM, Analytics, Engineering",4,3,75,CS Lead,CS response template
+2026-W18,Wednesday incident loop,"Review open incidents, RCAs, and follow-up owners","PM, EM, Clinical, CS",4,0,79,CS Lead,RCA note
+2026-W18,Thursday instrumentation review,Make sure product questions can be answered from data,"PM, Product Ops, CS",9,0,86,Engineering Manager,Decision log
+2026-W18,Friday scope guardrail,Close decisions and protect engineering focus before weekend drift,"PM, Analytics, Engineering",4,1,92,Analytics Lead,RCA note

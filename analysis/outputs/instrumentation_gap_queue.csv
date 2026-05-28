@@ -1,0 +1,28 @@
+event_id,workflow_id,event_name,mixpanel_status,product_question,required_properties,sample_rate,property_health,last_seen_week,gap_score,owner
+EVT-MHA005-3,MHA005,escalation_outcome_recorded,Missing,What outcome closed the loop?,"partner_id, ehr_vendor, endpoint, error_code",0.17,43,not seen,69.7,Product Ops
+EVT-MHA005-2,MHA005,clinical_review_opened,Missing,How quickly did the safety reviewer open the case?,"partner_id, ehr_vendor, endpoint, error_code",0.71,31,not seen,61.0,Platform Engineering
+EVT-MHA002-2,MHA002,referral_match_ranked,Missing,Which match factors changed the recommended provider panel?,"partner_id, ehr_vendor, endpoint, error_code",0.5,46,not seen,57.9,PM
+EVT-MHA008-1,MHA008,event_contract_reviewed,Missing,Which event contract was approved or rejected?,"partner_id, ehr_vendor, endpoint, error_code",0.53,46,not seen,56.6,Analytics Engineering
+EVT-MHA008-2,MHA008,property_schema_validated,Needs QA,Which event properties are missing or malformed?,"session_id, clinical_risk_band, reviewer_queue",0.29,67,2026-W11,50.8,Platform Engineering
+EVT-MHA002-3,MHA002,referral_accepted,Schema drift,Did the clinic accept the referral within SLA?,"partner_id, ehr_vendor, endpoint, error_code",0.35,65,2026-W17,50.6,Product Ops
+EVT-MHA003-2,MHA003,implementation_risk_logged,Needs QA,What operational risk remains before go-live?,"user_id, referral_id, provider_panel, status_reason",0.7,49,2026-W09,49.2,Platform Engineering
+EVT-MHA001-3,MHA001,care_route_presented,Needs QA,What route did the user see and did they continue?,"partner_id, ehr_vendor, endpoint, error_code",0.66,59,2026-W14,45.3,PM
+EVT-MHA001-2,MHA001,access_assessment_completed,Needs QA,Which patients complete assessment and reach a care-routing decision?,"partner_id, market, route, source, cohort_id",0.7,61,2026-W15,42.9,Analytics Engineering
+EVT-MHA007-1,MHA007,assessment_paused,Needs QA,Where do users pause and which prompt can recover them?,"session_id, clinical_risk_band, reviewer_queue",0.65,73,2026-W09,35.4,Platform Engineering
+EVT-MHA006-2,MHA006,referral_status_changed,Needs QA,What action did the clinic take on the referral?,"partner_id, ehr_vendor, endpoint, error_code",0.77,70,2026-W17,34.2,PM
+EVT-MHA008-3,MHA008,funnel_query_certified,Live,Can PMs use the funnel without cleanup?,"user_id, referral_id, provider_panel, status_reason",1,60,2026-W08,33.8,Product Ops
+EVT-MHA002-1,MHA002,provider_capacity_seen,Live,Was fresh capacity available when routing was decided?,"user_id, referral_id, provider_panel, status_reason",1,65,2026-W13,31.1,Analytics Engineering
+EVT-MHA007-2,MHA007,resume_link_clicked,Live,Did recovery outreach bring the user back?,"partner_id, ehr_vendor, endpoint, error_code",1,63,2026-W14,31.1,PM
+EVT-MHA007-3,MHA007,assessment_recovered,Live,Did the recovered user complete intake?,"user_id, referral_id, provider_panel, status_reason",1,64,2026-W07,30.5,PM
+EVT-MHA003-1,MHA003,partner_launch_gate_completed,Needs QA,Which launch gate slowed onboarding?,"partner_id, market, route, source, cohort_id",0.46,91,2026-W11,30.4,Platform Engineering
+EVT-MHA004-1,MHA004,ehr_status_received,Live,Which partner status updates are received from the EHR?,"partner_id, market, route, source, cohort_id",1,66,2026-W11,30.3,Platform Engineering
+EVT-MHA006-1,MHA006,admin_queue_opened,Live,Which coordinator reviewed the queue?,"user_id, referral_id, provider_panel, status_reason",1,66,2026-W08,29.8,Platform Engineering
+EVT-MHA009-3,MHA009,engineering_focus_check,Schema drift,Which work was protected from churn?,"partner_id, ehr_vendor, endpoint, error_code",0.86,77,2026-W07,27.4,Analytics Engineering
+EVT-MHA009-2,MHA009,scope_decision_recorded,Needs QA,"Was the request accepted, declined, merged, or routed?","partner_id, ehr_vendor, endpoint, error_code",0.49,95,2026-W08,27.3,Product Ops
+EVT-MHA003-3,MHA003,go_live_qa_passed,Live,Did the partner pass the QA checklist?,"partner_id, market, route, source, cohort_id",1,73,2026-W18,25.3,Platform Engineering
+EVT-MHA004-2,MHA004,fhir_mapping_failed,Live,Which required fields fail mapping or validation?,"session_id, clinical_risk_band, reviewer_queue",1,76,2026-W14,24.1,Analytics Engineering
+EVT-MHA005-1,MHA005,safety_phrase_detected,Live,Which high-risk phrases triggered review?,"partner_id, ehr_vendor, endpoint, error_code",1,78,2026-W08,23.1,Platform Engineering
+EVT-MHA004-3,MHA004,referral_status_synced,Needs QA,Did product and EHR status stay aligned?,"session_id, clinical_risk_band, reviewer_queue",0.72,92,2026-W13,22.6,Analytics Engineering
+EVT-MHA009-1,MHA009,inbound_item_logged,Schema drift,What type of inbound request entered triage?,"session_id, clinical_risk_band, reviewer_queue",0.75,97,2026-W15,18.3,Analytics Engineering
+EVT-MHA006-3,MHA006,more_context_requested,Live,What evidence did the clinic need before acceptance?,"partner_id, ehr_vendor, endpoint, error_code",1,85,2026-W18,18.0,Product Ops
+EVT-MHA001-1,MHA001,access_assessment_started,Live,"Can we isolate intake starts by market, partner, and acquisition source?","partner_id, ehr_vendor, endpoint, error_code",1,90,2026-W07,15.9,PM

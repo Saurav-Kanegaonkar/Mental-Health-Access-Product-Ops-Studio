@@ -1,0 +1,38 @@
+{
+  "workflow_count": 9,
+  "weekly_metric_rows": 108,
+  "inbound_items": 96,
+  "open_incidents": 26,
+  "events_with_gaps": 7,
+  "ehr_contracts": 9,
+  "top_workflow": {
+    "workflow_id": "MHA005",
+    "product_area": "Safety operations",
+    "workflow": "Crisis keyword escalation loop",
+    "owner_team": "Clinical Product + ML",
+    "roadmap_horizon": "Now",
+    "priority_score": 86.1,
+    "decision": "Commit next sprint",
+    "avg_completed_to_scheduled_rate": 0.4192,
+    "avg_time_to_first_slot_days": 12.1,
+    "avg_weekly_cs_tickets": 37.9,
+    "instrumentation_coverage": 0.722,
+    "open_incidents": 4,
+    "ehr_readiness_score": 64.7,
+    "estimated_access_impact": 209860,
+    "next_step": "Send CS-facing rationale and workaround"
+  },
+  "commit_next": 1,
+  "avg_instrumentation_coverage": 0.659,
+  "inbound_counts": {
+    "Say no with rationale": 6,
+    "Merge into epic": 60,
+    "Ship next": 13,
+    "Route to owner": 17
+  },
+  "incident_counts": {
+    "SEV2": 12,
+    "SEV3": 14,
+    "SEV1": 2
+  }
+}

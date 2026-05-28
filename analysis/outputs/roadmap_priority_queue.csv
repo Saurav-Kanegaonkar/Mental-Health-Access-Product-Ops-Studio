@@ -1,0 +1,10 @@
+workflow_id,product_area,workflow,owner_team,roadmap_horizon,priority_score,decision,avg_completed_to_scheduled_rate,avg_time_to_first_slot_days,avg_weekly_cs_tickets,instrumentation_coverage,open_incidents,ehr_readiness_score,estimated_access_impact,next_step
+MHA005,Safety operations,Crisis keyword escalation loop,Clinical Product + ML,Now,86.1,Commit next sprint,0.4192,12.1,37.9,0.722,4,64.7,209860,Send CS-facing rationale and workaround
+MHA002,Provider supply,Therapy referral capacity matching,Marketplace Product,Now,85.5,Prepare next brief,0.4099,14.1,37.1,0.685,1,62.0,253478,Add to sprint review decision log
+MHA009,Product operations,CS bug and scope intake triage,Product Ops,Now,83.4,Prepare next brief,0.3813,13.2,29.8,0.679,2,81.1,252368,Add to sprint review decision log
+MHA007,Patient activation,Assessment completion recovery,Growth Product,Next,82.1,Prepare next brief,0.4112,12.3,25.8,0.628,4,67.8,202583,Pair PM and engineer for 30-minute scope review
+MHA001,Access intake,Digital self-referral intake routing,Access PM + Intake Engineering,Now,79.1,Prepare next brief,0.4209,14.7,35.1,0.66,2,66.9,196724,Wait for second customer signal
+MHA003,Partner onboarding,US clinic launch readiness checklist,Product Ops,Next,75.1,Keep in discovery,0.4121,14.8,31.8,0.693,4,80.4,197304,Wait for second customer signal
+MHA006,Partner portal,Clinic admin referral queue,Portal Engineering,Next,74.9,Keep in discovery,0.3702,12.6,42.2,0.678,4,60.2,218547,Send CS-facing rationale and workaround
+MHA008,Product analytics,Mixpanel event taxonomy repair,Analytics Engineering,Now,74.7,Keep in discovery,0.3901,13.1,31.9,0.617,3,84.6,204055,Add to sprint review decision log
+MHA004,EHR integration,Referral status sync into partner EHR,Integrations Engineering,Now,74.4,Keep in discovery,0.4062,16.0,40.7,0.57,2,66.2,192332,Pair PM and engineer for 30-minute scope review

@@ -1,8 +1,5 @@
-# Data Sources
+# Synthetic Data Notes
 
-Synthetic source-style data for mental health access product operations, AI workflow triage, and EHR-adjacent roadmap sequencing.
+All rows in this folder are deterministic synthetic data for a public portfolio artifact. They do not represent Limbic, real patients, real clinics, partner EHRs, support tickets, incidents, clinical safety reviews, or customer accounts.
 
-- `entities.csv`: 36 access workflow records.
-- `daily_metrics.csv`: 5,040 access workflow-day metric rows.
-- `source_events.csv`: 760 operational events, QA checks, experiments, and stakeholder asks.
-- `recommended_actions.csv`: 220 candidate actions with effort and expected lift.
+The files are shaped to show how a product manager for an AI-enabled mental-health access product could sequence roadmap work, protect engineering focus, manage incidents, inspect Mixpanel-style instrumentation, and reason about EHR integration readiness.
